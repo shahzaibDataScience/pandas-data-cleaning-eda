@@ -17,13 +17,13 @@ A **foundation-level** data science project: take a messy sales dataset, clean i
 | File | What it is |
 |---|---|
 | `data/sales_data.csv` | Messy sample dataset — missing values, duplicates and inconsistent entries **on purpose** |
-| `data_cleaning_eda.py` | Full cleaning + EDA script, heavily commented — read it top to bottom |
+| `data_cleaning_eda.ipynb` | Full cleaning + EDA notebook with outputs — read it top to bottom |
 | `requirements.txt` | Needed Python packages |
 
 ## 🚀 How to run
 ```bash
 pip install -r requirements.txt
-python data_cleaning_eda.py
+jupyter notebook data_cleaning_eda.ipynb
 ```
 
 ## 🧠 After studying this, you should be able to explain
